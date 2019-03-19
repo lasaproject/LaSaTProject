@@ -754,13 +754,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C8D019F2240DD0E00ECCC9A /* Login */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Login;
-			sourceTree = "<group>";
-		};
 		2CB9BA842240D503008AA496 = {
 			isa = PBXGroup;
 			children = (
@@ -2027,7 +2020,6 @@
 		2CB9BDC82240D713008AA496 /* LaSaClass */ = {
 			isa = PBXGroup;
 			children = (
-				2C8D019F2240DD0E00ECCC9A /* Login */,
 				2CB9BDC92240D72A008AA496 /* HomePageViewController.h */,
 				2CB9BDCA2240D72A008AA496 /* HomePageViewController.m */,
 			);
@@ -2625,7 +2617,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/guanhonggang/Desktop/LaSaProject/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch";
 				INFOPLIST_FILE = LaSaProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2643,7 +2636,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				GCC_PREFIX_HEADER = /Users/guanhonggang/Desktop/LaSaProject/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch";
 				INFOPLIST_FILE = LaSaProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
