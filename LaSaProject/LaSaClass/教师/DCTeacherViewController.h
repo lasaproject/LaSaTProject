@@ -6,7 +6,7 @@
 //  Copyright © 2019 管宏刚. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RootViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
