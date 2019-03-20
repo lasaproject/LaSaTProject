@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7085E52241C883006912AB /* DCManangerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7085E42241C883006912AB /* DCManangerViewController.m */; };
+		2C7085EB2241C915006912AB /* DCTeacherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7085EA2241C915006912AB /* DCTeacherViewController.m */; };
+		2C7085EE2241C94B006912AB /* DCStudentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7085ED2241C94B006912AB /* DCStudentViewController.m */; };
 		2CB9BA9A2240D517008AA496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9BA992240D517008AA496 /* Assets.xcassets */; };
 		2CB9BAA02240D517008AA496 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9BA9F2240D517008AA496 /* main.m */; };
 		2CB9BAAA2240D518008AA496 /* LaSaProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9BAA92240D518008AA496 /* LaSaProjectTests.m */; };
@@ -245,7 +248,6 @@
 		2CB9BDC52240D6D4008AA496 /* xianzhi_luzhi_right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9BCDB2240D6D4008AA496 /* xianzhi_luzhi_right@3x.png */; };
 		2CB9BDC62240D6D4008AA496 /* xianzhi_luzhi_quxiao.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9BCDC2240D6D4008AA496 /* xianzhi_luzhi_quxiao.png */; };
 		2CB9BDC72240D6D4008AA496 /* xianzhi_luzhi_dianji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CB9BCDD2240D6D4008AA496 /* xianzhi_luzhi_dianji@2x.png */; };
-		2CB9BDCB2240D72A008AA496 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB9BDCA2240D72A008AA496 /* HomePageViewController.m */; };
 		35A75A76C415828AB49B4131 /* libPods-LaSaProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA86B57D45A55F5B020C06A /* libPods-LaSaProject.a */; };
 /* End PBXBuildFile section */
 
@@ -267,6 +269,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7085E32241C883006912AB /* DCManangerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCManangerViewController.h; sourceTree = "<group>"; };
+		2C7085E42241C883006912AB /* DCManangerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCManangerViewController.m; sourceTree = "<group>"; };
+		2C7085E92241C915006912AB /* DCTeacherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTeacherViewController.h; sourceTree = "<group>"; };
+		2C7085EA2241C915006912AB /* DCTeacherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTeacherViewController.m; sourceTree = "<group>"; };
+		2C7085EC2241C94B006912AB /* DCStudentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCStudentViewController.h; sourceTree = "<group>"; };
+		2C7085ED2241C94B006912AB /* DCStudentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCStudentViewController.m; sourceTree = "<group>"; };
 		2CB9BA8D2240D503008AA496 /* LaSaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaSaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB9BA992240D517008AA496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB9BA9E2240D517008AA496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -721,8 +729,6 @@
 		2CB9BCDB2240D6D4008AA496 /* xianzhi_luzhi_right@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xianzhi_luzhi_right@3x.png"; sourceTree = "<group>"; };
 		2CB9BCDC2240D6D4008AA496 /* xianzhi_luzhi_quxiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xianzhi_luzhi_quxiao.png; sourceTree = "<group>"; };
 		2CB9BCDD2240D6D4008AA496 /* xianzhi_luzhi_dianji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "xianzhi_luzhi_dianji@2x.png"; sourceTree = "<group>"; };
-		2CB9BDC92240D72A008AA496 /* HomePageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
-		2CB9BDCA2240D72A008AA496 /* HomePageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
 		3DA86B57D45A55F5B020C06A /* libPods-LaSaProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LaSaProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56F409225E3F519973125AA /* Pods-LaSaProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaSaProject.release.xcconfig"; path = "Target Support Files/Pods-LaSaProject/Pods-LaSaProject.release.xcconfig"; sourceTree = "<group>"; };
 		DB2D384035CA7FDB4BFDCFBA /* Pods-LaSaProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaSaProject.debug.xcconfig"; path = "Target Support Files/Pods-LaSaProject/Pods-LaSaProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -754,6 +760,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C7085E02241C800006912AB /* 学生 */ = {
+			isa = PBXGroup;
+			children = (
+				2C7085EC2241C94B006912AB /* DCStudentViewController.h */,
+				2C7085ED2241C94B006912AB /* DCStudentViewController.m */,
+			);
+			path = "学生";
+			sourceTree = "<group>";
+		};
+		2C7085E12241C819006912AB /* 教师 */ = {
+			isa = PBXGroup;
+			children = (
+				2C7085E92241C915006912AB /* DCTeacherViewController.h */,
+				2C7085EA2241C915006912AB /* DCTeacherViewController.m */,
+			);
+			path = "教师";
+			sourceTree = "<group>";
+		};
+		2C7085E22241C825006912AB /* 管理员 */ = {
+			isa = PBXGroup;
+			children = (
+				2C7085E32241C883006912AB /* DCManangerViewController.h */,
+				2C7085E42241C883006912AB /* DCManangerViewController.m */,
+			);
+			path = "管理员";
+			sourceTree = "<group>";
+		};
 		2CB9BA842240D503008AA496 = {
 			isa = PBXGroup;
 			children = (
@@ -2020,8 +2053,9 @@
 		2CB9BDC82240D713008AA496 /* LaSaClass */ = {
 			isa = PBXGroup;
 			children = (
-				2CB9BDC92240D72A008AA496 /* HomePageViewController.h */,
-				2CB9BDCA2240D72A008AA496 /* HomePageViewController.m */,
+				2C7085E22241C825006912AB /* 管理员 */,
+				2C7085E12241C819006912AB /* 教师 */,
+				2C7085E02241C800006912AB /* 学生 */,
 			);
 			path = LaSaClass;
 			sourceTree = "<group>";
@@ -2274,6 +2308,7 @@
 				2CB9BD8F2240D6D4008AA496 /* CommetTableViewCell.m in Sources */,
 				2CB9BD832240D6D4008AA496 /* YGNavigationController.m in Sources */,
 				2CB9BDB12240D6D4008AA496 /* YGSpreadView.m in Sources */,
+				2C7085EE2241C94B006912AB /* DCStudentViewController.m in Sources */,
 				2CB9BD6E2240D6D4008AA496 /* YYKVStorage.m in Sources */,
 				2CB9BD452240D6D4008AA496 /* UIView+Layout.m in Sources */,
 				2CB9BDB52240D6D4008AA496 /* YGVideoPickerController.m in Sources */,
@@ -2356,6 +2391,7 @@
 				2CB9BD152240D6D4008AA496 /* MJRefreshAutoFooter.m in Sources */,
 				2CB9BD0B2240D6D4008AA496 /* MJRefreshBackNormalFooter.m in Sources */,
 				2CB9BD302240D6D4008AA496 /* HXTagsCell.m in Sources */,
+				2C7085E52241C883006912AB /* DCManangerViewController.m in Sources */,
 				2CB9BD1F2240D6D4008AA496 /* Y_KLineAccessory.m in Sources */,
 				2CB9BD7E2240D6D4008AA496 /* KSProgressLayer.m in Sources */,
 				2CB9BCEE2240D6D4008AA496 /* CWLateralSlideAnimator.m in Sources */,
@@ -2400,7 +2436,6 @@
 				2CB9BCEA2240D6D4008AA496 /* YGConnectionService.m in Sources */,
 				2CB9BD672240D6D4008AA496 /* MHYouKuInputPanelView.m in Sources */,
 				2CB9BD412240D6D4008AA496 /* TZAssetCell.m in Sources */,
-				2CB9BDCB2240D72A008AA496 /* HomePageViewController.m in Sources */,
 				2CB9BD872240D6D4008AA496 /* YGAnimatePlayer.m in Sources */,
 				2CB9BCE62240D6D4008AA496 /* SocketAddGoodModel.m in Sources */,
 				2CB9BCFC2240D6D4008AA496 /* MJFoundation.m in Sources */,
@@ -2419,6 +2454,7 @@
 				2CB9BD282240D6D4008AA496 /* Y_MALine.m in Sources */,
 				2CB9BD7F2240D6D4008AA496 /* KSPhotoItem.m in Sources */,
 				2CB9BDA02240D6D4008AA496 /* YGTextView.m in Sources */,
+				2C7085EB2241C915006912AB /* DCTeacherViewController.m in Sources */,
 				2CB9BD6A2240D6D4008AA496 /* UICKeyChainStore.m in Sources */,
 				2CB9BD202240D6D4008AA496 /* Y_AccessoryMAView.m in Sources */,
 				2CB9BD782240D6D4008AA496 /* UIImageView+YYWebImage.m in Sources */,
