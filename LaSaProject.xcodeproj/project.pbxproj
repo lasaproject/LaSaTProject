@@ -760,6 +760,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18416ADE2241D5B9004E380E /* 研修学习 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "研修学习";
+			sourceTree = "<group>";
+		};
 		2C7085E02241C800006912AB /* 学生 */ = {
 			isa = PBXGroup;
 			children = (
@@ -772,6 +779,7 @@
 		2C7085E12241C819006912AB /* 教师 */ = {
 			isa = PBXGroup;
 			children = (
+				18416ADE2241D5B9004E380E /* 研修学习 */,
 				2CCFB3002241CC8D00E23745 /* DCTeacherViewController.h */,
 				2CCFB3012241CC8D00E23745 /* DCTeacherViewController.m */,
 			);
