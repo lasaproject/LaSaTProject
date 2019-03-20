@@ -10,7 +10,7 @@
 #import "IQKeyboardManager.h"
 #import "EBForeNotification.h"
 #import "SMS_SDK/SMSSDK.h"
-#import "HomePageViewController.h"
+#import "DCManagerViewController.h"
 #import "YGNavigationController.h"
 
 @interface AppDelegate ()
@@ -73,8 +73,8 @@
      *  如果之前登陆过
      */
     
-    HomePageViewController *homeController = [[HomePageViewController alloc] init];
-    YGNavigationController *navc = [[YGNavigationController alloc] initWithRootViewController:homeController];
+    DCManagerViewController *controller = [[DCManagerViewController alloc] init];
+    YGNavigationController *navc = [[YGNavigationController alloc] initWithRootViewController:controller];
     _window.rootViewController = navc;
     
     sleep(1);
