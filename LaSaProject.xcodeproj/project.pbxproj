@@ -2653,6 +2653,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W493742RAW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch";
 				INFOPLIST_FILE = LaSaProject/Info.plist;
@@ -2672,6 +2673,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W493742RAW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LaSaProject/YGSystem/YGHeaderFile/YoGee.pch";
 				INFOPLIST_FILE = LaSaProject/Info.plist;
